@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Jersey+15&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <img src="images/logo.png" alt="Portfolio Logo" class="logo-image">
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="text-content">
+            <img src="images/harish.png" alt="Harish" class="profile-image floating">
+            <div id="animation-container"></div>
+            <p>Stories in every PiXEL.</p>
+        </div>
+    </section>
+
+    <!-- Add marquee section -->
+    <section class="marquee">
+        <div class="marquee-content">
+            <!-- First set of squares -->
+            <div class="square"><img src="images/logo1.jpg" alt="Work 1"></div>
+            <div class="square"><img src="images/logo2.jpg" alt="Work 2"></div>
+            <div class="square"><img src="images/logo3.jpg" alt="Work 3"></div>
+            <div class="square"><img src="images/logo4.jpg" alt="Work 4"></div>
+            <div class="square"><img src="images/logo5.jpg" alt="Work 5"></div>
+            <div class="square"><img src="images/logo6.jpg" alt="Work 6"></div>
+            <div class="square"><img src="images/logo7.jpg" alt="Work 7"></div>
+            <div class="square"><img src="images/logo8.jpg" alt="Work 8"></div>
+            <!-- Second set of squares for seamless loop -->
+            <div class="square"><img src="images/logo1.jpg" alt="Work 1"></div>
+            <div class="square"><img src="images/logo2.jpg" alt="Work 2"></div>
+            <div class="square"><img src="images/logo3.jpg" alt="Work 3"></div>
+            <div class="square"><img src="images/logo4.jpg" alt="Work 4"></div>
+            <div class="square"><img src="images/logo5.jpg" alt="Work 5"></div>
+            <div class="square"><img src="images/logo6.jpg" alt="Work 6"></div>
+            <div class="square"><img src="images/logo7.jpg" alt="Work 7"></div>
+            <div class="square"><img src="images/logo8.jpg" alt="Work 8"></div>
+        </div>
+    </section>
+
+    <!-- Add reverse marquee section -->
+    <section class="marquee reverse">
+        <div class="marquee-content">
+            <!-- First set of squares -->
+            <div class="square"><img src="images/logo1.jpg" alt="Work 1"></div>
+            <div class="square"><img src="images/logo2.jpg" alt="Work 2"></div>
+            <div class="square"><img src="images/logo3.jpg" alt="Work 3"></div>
+            <div class="square"><img src="images/logo4.jpg" alt="Work 4"></div>
+            <div class="square"><img src="images/logo5.jpg" alt="Work 5"></div>
+            <div class="square"><img src="images/logo6.jpg" alt="Work 6"></div>
+            <div class="square"><img src="images/logo7.jpg" alt="Work 7"></div>
+            <div class="square"><img src="images/logo8.jpg" alt="Work 8"></div>
+            <!-- Second set of squares for seamless loop -->
+            <div class="square"><img src="images/logo1.jpg" alt="Work 1"></div>
+            <div class="square"><img src="images/logo2.jpg" alt="Work 2"></div>
+            <div class="square"><img src="images/logo3.jpg" alt="Work 3"></div>
+            <div class="square"><img src="images/logo4.jpg" alt="Work 4"></div>
+            <div class="square"><img src="images/logo5.jpg" alt="Work 5"></div>
+            <div class="square"><img src="images/logo6.jpg" alt="Work 6"></div>
+            <div class="square"><img src="images/logo7.jpg" alt="Work 7"></div>
+            <div class="square"><img src="images/logo8.jpg" alt="Work 8"></div>
+        </div>
+    </section>
+
+    <!-- Add Video Player Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <video id="myVideo" autoplay loop muted controls>
+                <source src="images/demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <nav class="bottom-nav">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact" class="contact-link">Contact <i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
